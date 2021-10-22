@@ -1,2 +1,24 @@
-# dp
-Experiments with basic Dynamic Programming (DP) algorithms
+
+# Basic Dynamic Programming Algorithms
+
+This repository contains Jupyter notebooks illustrating basic Dynamic Programming (DP) algorithms using a simple maze or grid-world as an environment. 
+
+## Basic Maze
+
+A notebook containing the implementation for a basic maze, as well as utility functions for visualizing the maze. The implementation is imported by the other notebooks
+
+[maze_basis.ipynb](https://github.com/mmakipaa/dp/blob/main/notebooks/maze_basis.ipynb)
+
+## Value Iteration
+
+A notebook illustrating Value Iteration algorithm. In addition. the notebook also covers some background of dynamic programming, briefly discussing for example Markov Decision Processes, policies and value functions.
+
+[maze_value_iteration.ipynb](https://github.com/mmakipaa/dp/blob/main/notebooks/maze_value_iteration.ipynb)
+
+## Policy Iteration
+
+A notebook illustrating Policy Iteration
+
+[maze_policy_iteration.ipynb](https://github.com/mmakipaa/dp/blob/main/notebooks/maze_policy_iteration.ipynb)
+
+

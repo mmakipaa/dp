@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400"
+   height="250"
+   viewBox="0 0 105.83333 66.145837"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="noisy movement corner 26082021.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     units="px"
+     inkscape:zoom="0.77771465"
+     inkscape:cx="635.19441"
+     inkscape:cy="275.8081"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-global="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     height="300px">
+    <sodipodi:guide
+       position="26.458333,205.88316"
+       orientation="-1,0"
+       id="guide2630"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="79.374999,202.4811"
+       orientation="-1,0"
+       id="guide2632"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="132.29167,184.10997"
+       orientation="-1,0"
+       id="guide2663"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="185.20833,117.76976"
+       orientation="-1,0"
+       id="guide2665"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="-288.15463,185.20833"
+       orientation="0,1"
+       id="guide3165"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="-253.79381,105.83333"
+       orientation="0,1"
+       id="guide3167"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="-229.97937,26.458333"
+       orientation="0,1"
+       id="guide3169"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="132.5497,145.34869"
+       orientation="0,1"
+       id="guide3171"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="-260.93814,66.145833"
+       orientation="0,1"
+       id="guide3173"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient103897">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop103893" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.00392157;"
+         offset="0.99271721"
+         id="stop104797" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop103895" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient103897"
+       id="linearGradient103899"
+       x1="26.458366"
+       y1="105.83333"
+       x2="105.8333"
+       y2="105.83333"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0036631,0,0,0.49595534,-13.471463,-19.474003)" />
+  </defs>
+  <g
+     inkscape:label="Taso 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="38.443302"
+       y="82.329895"
+       id="text4913"><tspan
+         sodipodi:role="line"
+         id="tspan4911"
+         style="stroke-width:0.264583"
+         x="38.443302"
+         y="82.329895" /></text>
+    <rect
+       style="fill:url(#linearGradient103899);fill-opacity:1;stroke:#000000;stroke-width:0.688071;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect103380"
+       width="78.686867"
+       height="38.88274"
+       x="13.573236"
+       y="13.573233" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.37563;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 53.18125,13.229167 52.916669,52.455971"
+       id="path103701"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;line-height:1.25;font-family:sans-serif;stroke-width:0.308046"
+       x="29.033609"
+       y="34.616421"
+       id="text106256"
+       transform="scale(0.93566165,1.0687624)"><tspan
+         sodipodi:role="line"
+         id="tspan106254"
+         style="font-size:9.87778px;stroke-width:0.308046"
+         x="29.033609"
+         y="34.616421">S1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;line-height:1.25;font-family:sans-serif;stroke-width:0.30223"
+       x="72.536743"
+       y="34.119164"
+       id="text106256-0"
+       transform="scale(0.92037462,1.0865141)"><tspan
+         sodipodi:role="line"
+         id="tspan106254-9"
+         style="font-size:9.87778px;stroke-width:0.30223"
+         x="72.536743"
+         y="34.119164">S2</tspan></text>
+  </g>
+</svg>
