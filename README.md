@@ -9,6 +9,7 @@ This repository contains Jupyter notebooks illustrating basic Dynamic Programmin
 A notebook illustrating Value Iteration algorithm. In addition. the notebook also covers some background of dynamic programming, briefly discussing for example Markov Decision Processes, policies and value functions.
 
 [maze_value_iteration.ipynb](https://github.com/mmakipaa/dp/blob/main/notebooks/maze_value_iteration.ipynb)
+[maze_value_iteration.html](https://htmlpreview.github.io/?https://github.com/mmakipaa/dp/blob/main/html/maze_value_iteration.html)
 
 ## Policy Iteration
 
@@ -21,6 +22,7 @@ A notebook illustrating Policy Iteration
 A notebook containing the implementation for a basic maze, as well as utility functions for visualizing the maze. The implementation is imported by the notebooks above
 
 [maze_basis.ipynb](https://github.com/mmakipaa/dp/blob/main/notebooks/maze_basis.ipynb)
+
 
 ## HTML versions
 
