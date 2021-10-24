@@ -23,8 +23,8 @@ A notebook implementing a basic maze, as well as utility functions for visualizi
 
 ## HTML versions
 
-In addition to Jupyter notebooks in _.ipynb_ format, HTML versions of the notebooks generated using [nbconvert](https://github.com/jupyter/nbconvert) can be found in [html](html) folder. These pre-rendered versions use a slightly larger font and fix an issue when using styling \<span\> elements within markdown cells. Also deep linking between notebooks works. 
+In addition to Jupyter notebooks in _.ipynb_ format, HTML versions of the notebooks generated using [nbconvert](https://github.com/jupyter/nbconvert) can be found in [html](html) folder. These pre-rendered versions use a slightly larger font and fix an issue when using styling \<span\> -elements within markdown cells. Also deep linking between notebooks works. 
 
 GitHub does not currently support rendering of HTML files. So, to view the pre-rendered notebooks, navigate to [Github pages](https://mmakipaa.github.io/dp/) side of this project and follow the links there.
 
-Alternatively, the notebooks can be viewed in <notebooks> folder using the renderer provided by GitHub, with above limitations by using the links above.
+Alternatively, the notebooks can be viewed in [notebooks](notebooks) folder using the renderer provided by GitHub, with discussed limitations, by using the links above.
