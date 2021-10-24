@@ -13278,6 +13278,10 @@ body.lm-mod-override-cursor .jp-OutputArea-output.jp-mod-isolated:before {
   outline: none;
   overflow: auto;
   background: var(--jp-layout-color0);
+  /* MIKKOMOD */
+  max-width: 1028px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .jp-Notebook.jp-mod-scrollPastEnd::after {
@@ -13798,7 +13802,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-notebook-padding: 10px;
   --jp-notebook-select-background: var(--jp-layout-color1);
   --jp-notebook-multiselected-color: var(--md-blue-50);
-
+  
   /* The scroll padding is calculated to fill enough space at the bottom of the
   notebook to show one single-line cell (with appropriate padding) at the top
   when the notebook is scrolled all the way to the bottom. We also subtract one
