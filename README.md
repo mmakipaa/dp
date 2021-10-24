@@ -5,24 +5,26 @@ This repository contains Jupyter notebooks illustrating basic Dynamic Programmin
 
 ## Value Iteration
 
-A notebook illustrating Value Iteration algorithm. In addition. the notebook also covers some background of dynamic programming, briefly discussing for example Markov Decision Processes, policies and value functions.
+A notebook illustrating value iteration algorithm. In addition. the notebook also covers some background of dynamic programming, briefly discussing for example Markov Decision Processes, policies and value functions.
 
-[maze_value_iteration.ipynb](https://github.com/mmakipaa/dp/blob/main/notebooks/maze_value_iteration.ipynb)
+[maze_value_iteration.ipynb](notebooks/maze_value_iteration.ipynb)
 
 ## Policy Iteration
 
-A notebook illustrating Policy Iteration
+A notebook illustrating policy iteration algorithm
 
-[maze_policy_iteration.ipynb](https://github.com/mmakipaa/dp/blob/main/notebooks/maze_policy_iteration.ipynb)
+[maze_policy_iteration.ipynb](notebooks/maze_policy_iteration.ipynb)
 
 ## Basic Maze
 
-A notebook containing the implementation for a basic maze, as well as utility functions for visualizing the maze. The implementation is imported by the notebooks above
+A notebook implementing a basic maze, as well as utility functions for visualizing the maze. The implementation is imported by the above notebooks.
 
-[maze_basis.ipynb](https://github.com/mmakipaa/dp/blob/main/notebooks/maze_basis.ipynb)
+[maze_basis.ipynb](notebooks/maze_basis.ipynb)
 
 ## HTML versions
 
-In addition to Jupyter notebooks, html versions of the notebooks rendered using [nbconvert](https://github.com/jupyter/nbconvert) can be found in [html](html) folder.
+In addition to Jupyter notebooks in _.ipynb_ format, HTML versions of the notebooks generated using [nbconvert](https://github.com/jupyter/nbconvert) can be found in [html](html) folder. These pre-rendered versions use a slightly larger font and fix an issue when using styling \<span\> elements within markdown cells. Also deep linking between notebooks works. 
 
-These pre-rendered versions use a slightly larger font and fix an issue when applying styling span elements within markdown cells. Also deep linking between notebooks works when html files are located in same directory.
+GitHub does not currently support rendering of HTML files. So, to view the pre-rendered notebooks, navigate to [Github pages](https://mmakipaa.github.io/dp/) side of this project and follow the links there.
+
+Alternatively, the notebooks can be viewed in <notebooks> folder using the renderer provided by GitHub, with above limitations by using the links above.
