@@ -13981,8 +13981,8 @@ a.anchor-link {
 <p>So to start, we need to model the maze environment as a Markov decision process. We first introduce the maze as a Markov Decision Process, as is necessary for applying a dynamic programing algorithm.</p>
 <p>We also briefly cover the underlying theory and introduce the necessary concepts, such as "optimal policies" referred to in the definition quoted above.</p>
 <p>Towards the end of the notebook, we outline an implementation of the algorithm in Python and provide execution examples by beginning with the 'canonical maze', a common example used for instance in several university courses. We also illustrate a couple of slightly more complex mazes as additional examples.</p>
-<p>Implementation of the maze is reused from <a href="./maze_basis.ipynb">another notebook</a>.</p>
-<p>Another fundamental dynamic programming algorithm, <em>Policy Iteration</em>, is covered in the <a href="./maze_policy_iteration.ipynb">following experiment</a>.</p>
+<p>Implementation of the maze is reused from <a href="./maze_basis.html">another notebook</a>.</p>
+<p>Another fundamental dynamic programming algorithm, <em>Policy Iteration</em>, is covered in the <a href="./maze_policy_iteration.html">following experiment</a>.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -14010,7 +14010,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Maze-as-a-Markov-Decision-Process">Maze as a Markov Decision Process<a class="anchor-link" href="#Maze-as-a-Markov-Decision-Process">&#182;</a></h2><p>A maze or a grid-world is an environment consisting of grid-like states. We use the <a href="./maze_basis.ipynb">maze implementation</a> to plot an illustrative image, showing the canonical maze below.</p>
+<h2 id="Maze-as-a-Markov-Decision-Process">Maze as a Markov Decision Process<a class="anchor-link" href="#Maze-as-a-Markov-Decision-Process">&#182;</a></h2><p>A maze or a grid-world is an environment consisting of grid-like states. We use the <a href="./maze_basis.html">maze implementation</a> to plot an illustrative image, showing the canonical maze below.</p>
 <p>The problem represented by the maze has different interpretations in academia: It could be taken as a model for parking a car in a slippery garage, or modeling movement of a robot in a room, or even a robot chasing diamonds while avoiding a scary pit of fire.</p>
 
 </div>
@@ -14505,7 +14505,7 @@ P\left( {s}' \vert s,\pi \left(s \right ) \right )
 \left( r\left (s,\pi \left(s \right ),{s}'\right )  + \gamma 
 V^{\pi}_{k}\left ( {s}' \right )  \right ) 
 \end{equation*}<p>We update state-value $V^{\pi}_{k+1 }\!\left ( s \right )$ based on old values of the successor states $V^{\pi}_{k}\left ( {s}' \right )$ and the expected immediate rewards. We would sweep thought the state set, updating each state in turn (a synchronous backup). This is called <em>iterative policy evaluation</em> and is guaranteed to converge to $V^{\pi}$.</p>
-<p>Later, we consider a matrix formulation for policy evaluation (rather than the iterative solution discussed above) in the implementation of policy iteration algorithm, see <a href="maze_policy_iteration.ipynb#Matrix-implementation-of-policy-evaluation">here</a>.</p>
+<p>Later, we consider a matrix formulation for policy evaluation (rather than the iterative solution discussed above) in the implementation of policy iteration algorithm, see <a href="maze_policy_iteration.html#Matrix-implementation-of-policy-evaluation">here</a>.</p>
 <h3 id="Bellman-optimality-backup">Bellman optimality backup<a class="anchor-link" href="#Bellman-optimality-backup">&#182;</a></h3><p>In similar fashion, to find an optimal policy we can derive an update rule from Bellman optimality equation as:</p>
 \begin{equation*}
 V_{k+1 }\!\left ( s \right ) =
@@ -14526,7 +14526,7 @@ V_{k}\left ( {s}' \right )  \right )
 <p>For arbitary $V_{0}$, value iteration algorithm can be shown to convergence to $V^{\ast}$ for discounted finite MDPs if $\gamma &lt; 1$ or if the state-action-reward sequences (episodes) are guaranteed to be finite. In practice, we consider the algorithm has converged when the maximum change between two subsequent value functions is smaller than some predefined threshold $\theta$.</p>
 <p>Once the algorithm has converged to a (near) optimal solution, we determine the optimal policy $\pi^{\ast}$ corresponding to the value function by looping through all states and determining the action that maximizes the expected returns from that state.</p>
 <p>Pseudocode for the algorithm could stand as follows:</p>
-<p><span style="font-family: monospace;"></p>
+<span style="font-family: monospace;">
 <blockquote><p><strong>Value iteration:</strong> 
 <br>
 initialize $\theta &gt; 0$, $k =0$ and $V_{0}\left ( s \right ) \in \mathbb{R}$ for all $S$</p>
@@ -14559,7 +14559,7 @@ $</p>
 </blockquote>
 <p>return $\pi^{\ast}$</p>
 </blockquote>
-<p>&lt;/span&gt;</p>
+</span>
 <p>For this implementation, we need to maintain two copies of state values; current values $V_{k}$ and updated values $V_{k+1}$. Indeed, we use the updated values only during the next iteration, when all states have been visited and updated.</p>
 <p>It is good to note that there is no need to represent the policy during execution of the algorithm. The updates refer to state values only, and policy is only extracted at the end.</p>
 <p>Computational complexity is $O(\left |\mathcal{A}\right |\left |\mathcal{S}\right |^{2})$ per iteration for $\left |\mathcal{A}\right |$ actions and $\left |\mathcal{S}\right |$ states.</p>
@@ -15820,7 +15820,7 @@ ROUND 42, 9.134219292307455e-06
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>We compare the result to policy iteration in the <a href="./maze_policy_iteration.ipynb#Timing-the-execution">end of the notebook</a> 
+<p>We compare the result to policy iteration in the <a href="./maze_policy_iteration.html#Timing-the-execution">end of the notebook</a> 
 covering policy iteration implementation.</p>
 
 </div>
