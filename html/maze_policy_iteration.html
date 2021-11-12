@@ -15093,7 +15093,7 @@ ROUND 4, 0
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span> c
@@ -15107,10 +15107,10 @@ ROUND 4, 0
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">re</span>
@@ -15124,10 +15124,33 @@ ROUND 4, 0
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>18.1 ms +- 1.56 ms per loop (mean +- std. dev. of 7 runs, 10 loops each)
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>A <a href="./maze_value_iteration.html#Timing-it">result for Value iteration</a> was 58.9 ms +- 1.32 ms per loop (mean +- std. dev. of 7 runs, 10 loops each) for <code>C_LIMIT = 0.0001</code>, resulting in 32 iterations of the algorithm. This should be compared with 5 iterations needed for policy iteration above.</p>
+<p>A <a href="./maze_value_iteration.html#Timing-it">result for Value iteration</a> was</p>
+<p>68.4 ms +- 1.85 ms per loop (mean +- std. dev. of 7 runs, 10 loops each)</p>
+<p>for <code>C_LIMIT = 0.0001</code>, resulting in 39 iterations of the algorithm. This should be compared with 5 iterations needed for policy iteration above.</p>
 <p>Exact comparison of the two algorithms is difficult, however, as value iteration terminates based on value of $\theta$ and the policy probably has converged before the state-values reach the target level of maximum change between iterations - we could use a significant share of computation time to fine-tune low decimals of value-function estimates.</p>
 <p>Nevertheless, the computational cost of policy iteration compares favorably despite the burden of matrix inversion during policy evaluation step.</p>
 
